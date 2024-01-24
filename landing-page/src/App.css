@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  "Poppins", sans-serif;
+  overflow-y: hidden; /* This will hide the vertical scrollbar for the specific container */
+}
+
+button{
+  all: unset;
+  border: none;
+  padding: 6px 6px;
+  background: crimson;
+  color: white;
+  height: 32px;
+  font-weight:  300px;
+}
+nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content:space-between;
+  gap: 24px;
+}
+

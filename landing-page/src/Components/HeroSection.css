@@ -1,0 +1,39 @@
+.main{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    height: 100vh;
+   
+  
+}
+
+.left{
+     width: 50%;
+}
+
+.left h1 {
+    margin: 0;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 100px;
+}
+.left >p {
+    font-weight: 400;
+    color: grey;
+
+}
+
+.hero-btn{
+    display: flex;
+    gap: 40px;
+}
+
+.cat{
+    border: 1px solid grey;
+    color: grey;
+    background: transparent;
+}
+.right{
+    width: 50%; 
+}
+
